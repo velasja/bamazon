@@ -111,6 +111,17 @@ INSERT INTO products (product_name, department_name, price, stock_quantity) VALU
 	<array/>
 	<key>queryHistory</key>
 	<array>
+		<string>UPDATE products SET stock_quantity = 20 WHERE item_id = 1;
+UPDATE products SET stock_quantity = 15 WHERE item_id = 2;
+UPDATE products SET stock_quantity = 25 WHERE item_id = 3;
+UPDATE products SET stock_quantity = 20 WHERE item_id = 4;
+UPDATE products SET stock_quantity = 40 WHERE item_id = 5;
+UPDATE products SET stock_quantity = 15 WHERE item_id = 6;
+UPDATE products SET stock_quantity = 20 WHERE item_id = 7;
+UPDATE products SET stock_quantity = 25 WHERE item_id = 8;
+UPDATE products SET stock_quantity = 20 WHERE item_id = 9;
+UPDATE products SET stock_quantity = 50 WHERE item_id = 10</string>
+		<string>UPDATE products SET stock_quantity = 20 WHERE item_id = 1</string>
 		<string>CREATE DATABASE Bamazon;
 USE Bamazon;
 CREATE TABLE products (
